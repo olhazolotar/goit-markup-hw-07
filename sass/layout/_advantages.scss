@@ -23,22 +23,17 @@
   background-color: var(--background-second-color);
   margin-bottom: 30px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-center;
 }
 
 .advantages__item-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(700, 14px, 16px, null);
   text-transform: uppercase;
 
   margin-bottom: 10px;
 }
 
 .advantages__descr {
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(null, 14px, 24px, null);
   color: var(--second-text-color);
 }

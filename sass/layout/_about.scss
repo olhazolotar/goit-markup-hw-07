@@ -20,9 +20,8 @@
   left: 0;
   bottom: 0;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: calc(16 / 14);
+  @include font(700, 14px, 16px, null);
+
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;

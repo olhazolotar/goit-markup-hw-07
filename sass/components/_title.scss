@@ -1,8 +1,8 @@
 .title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  @include font(700, 36px, 42px, null);
   text-align: center;
+}
 
+.title--bottom {
   margin-bottom: 50px;
 }
